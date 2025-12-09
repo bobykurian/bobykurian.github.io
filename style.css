@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation */
+header {
+    width: 100%;
+    background: #111;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #00aaff;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: linear-gradient(to right, #111, #444);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #fff;
+}
+
+.hero h1 span {
+    color: #00aaff;
+}
+
+.hero p {
+    color: #ddd;
+    margin: 10px 0 20px;
+    font-size: 18px;
+}
+
+.btn {
+    background: #00aaff;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #0088cc;
+}
+
+/* Sections */
+section {
+    width: 80%;
+    margin: 80px auto;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+/* Education & Experience Items */
+.edu-item, .exp-item {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-left: 5px solid #00aaff;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.edu-item h3, .exp-item h3 {
+    font-size: 22px;
+}
+
+.edu-item span, .exp-item span {
+    color: #555;
+    font-size: 14px;
+}
+
+/* Contact */
+#contact p {
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
